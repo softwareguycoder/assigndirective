@@ -5,9 +5,6 @@
 ; PURPOSE:      Demonstrate the %assign directive and redefining the values of variables using it
 ;
 
-; NOTE: I think it's a best practice to always encode integer literals in Hex when
-; writing assembly code.
-
 SYS_EXIT    EQU 0x1                     ; syscall number for sys_exit
 EXIT_OK     EQU 0x0                     ; exit code for successful program termination
 EXIT_ERROR  EQU -0x1                    ; exit code for when the program has an error
